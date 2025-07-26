@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Portfolio</title>
+</head>
+<body>
+
+  <h1 align="center">Harjit Singh</h1>
+  <h3 align="center">Computer Science Student | Web Developer | Learner</h3>
+  <hr>
+
+  <h2>About Me</h2>
+  <p>
+    Hello! I'm Harjit, a passionate computer science student with a strong interest in web development,
+    data structures, and artificial intelligence. I'm always eager to learn and contribute to real-world projects.
+  </p>
+
+  <h2>Education</h2>
+  <ul>
+    <li><b>B.Sc. Computer Science</b> - Chandigarh University (2023 - 2027)</li>
+    <li><b>Senior Secondary</b> - D.A.V. Public School (2020 - 2022)</li>
+  </ul>
+  
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Programming: C++, Python, Java</li>
+    <li>Web: HTML, JavaScript</li>
+    <li>Tools: Git, VS Code, Linux</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <ol>
+    <li><b>Portfolio Website:</b> A personal website to showcase my work and resume.</li>
+    <li><b>To-Do App:</b> A JavaScript-based task management app with local storage.</li>
+    <li><b>Streetify:</b> A smart street vendor location system providing location of street vendor near you. The aim is to provide employment to various street vendors.</li>
+  </ol>
+
+  <h2>Contact</h2>
+  <p>Email: hs170640@gmail.com</p>
+  <p>Phone no.: 9846625436</p>
+
+  <hr>
+</body>
+</html>
