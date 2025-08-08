@@ -1,45 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Student Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Harjit Singh - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+   
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f9f9f9, #eef1f5);
+      color: #2c3e50;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1, h3 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      color: #1abc9c;
+      font-size: 2.5rem;
+    }
+
+    h3 {
+      font-weight: normal;
+      font-size: 1.2rem;
+      color: #34495e;
+    }
+
+    hr {
+      margin: 25px 0;
+      border: none;
+      border-top: 2px solid #ecf0f1;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #2980b9;
+      border-left: 5px solid #1abc9c;
+      padding-left: 10px;
+      font-size: 1.5rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #1abc9c;
+      text-decoration: underline;
+    }
+
+    .contact p {
+      margin: 5px 0;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
 </head>
 <body>
 
-  <h1 align="center">Harjit Singh</h1>
-  <h3 align="center">Computer Science Student | Web Developer | Learner</h3>
-  <hr>
+  <div class="container">
+    <h1>Harjit Singh</h1>
+    <h3>Computer Science Student | Web Developer | Learner</h3>
+    <hr>
 
-  <h2>About Me</h2>
-  <p>
-    Hello! I'm Harjit, a passionate computer science student with a strong interest in web development,
-    data structures, and artificial intelligence. I'm always eager to learn and contribute to real-world projects.
-  </p>
+    <h2>About Me</h2>
+    <p>
+      Hello! I'm Harjit, a passionate computer science student with a strong interest in web development,
+      data structures, and artificial intelligence. I'm always eager to learn and contribute to real-world projects.
+    </p>
 
-  <h2>Education</h2>
-  <ul>
-    <li><b>B.Sc. Computer Science</b> - Chandigarh University (2023 - 2027)</li>
-    <li><b>Senior Secondary</b> - D.A.V. Public School (2020 - 2022)</li>
-  </ul>
-  
+    <h2>Education</h2>
+    <ul>
+      <li><b>B.Sc. Computer Science</b> - Chandigarh University (2023 - 2027)</li>
+      <li><b>Senior Secondary</b> - D.A.V. Public School (2020 - 2022)</li>
+    </ul>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Programming: C++, Python, Java</li>
-    <li>Web: HTML, JavaScript</li>
-    <li>Tools: Git, VS Code, Linux</li>
-  </ul>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming:</strong> C++, Python, Java</li>
+      <li><strong>Web:</strong> HTML, JavaScript</li>
+      <li><strong>Tools:</strong> Git, VS Code, Linux</li>
+    </ul>
 
-  <h2>Projects</h2>
-  <ol>
-    <li><b>Portfolio Website:</b> A personal website to showcase my work and resume.</li>
-    <li><b>To-Do App:</b> A JavaScript-based task management app with local storage.</li>
-    <li><b>Streetify:</b> A smart street vendor location system providing location of street vendor near you. The aim is to provide employment to various street vendors.</li>
-  </ol>
+    <h2>Projects</h2>
+    <ol>
+      <li><strong>Portfolio Website:</strong> A personal website to showcase my work and resume.</li>
+      <li><strong>To-Do App:</strong> A JavaScript-based task management app with local storage.</li>
+      <li><strong>Streetify:</strong> A smart street vendor location system providing location of street vendors near you. The aim is to provide employment to various street vendors.</li>
+    </ol>
 
-  <h2>Contact</h2>
-  <p>Email: hs170640@gmail.com</p>
-  <p>Phone no.: 9846625436</p>
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>Email: <a href="mailto:hs170640@gmail.com">hs170640@gmail.com</a></p>
+      <p>Phone no.: 9846625436</p>
+    </div>
+  </div>
 
-  <hr>
 </body>
 </html>
