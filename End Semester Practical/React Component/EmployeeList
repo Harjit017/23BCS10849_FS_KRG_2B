@@ -1,0 +1,40 @@
+import React, { useState } from "react";
+import "./App.css";
+
+const EmployeeList = () => {
+  const [filterText, setFilterText] = useState("");
+
+  const employees = ["Ram", "Sham", "Charlie", "David", "Batman", "Superman", "Justice League"];
+
+  const filteredEmployees = employees.filter((name) =>
+    name.toLowerCase().startsWith(filterText.toLowerCase())
+  );
+
+  return (
+    <div className="app-container">
+      <div className="employee-card">
+        <h2>Employee List</h2>
+
+        <input
+          type="text"
+          className="employee-filter-input"
+          placeholder="Filter by name..."
+          value={filterText}
+          onChange={(e) => setFilterText(e.target.value)}
+        />
+
+        {filteredEmployees.length === 0 ? (
+          <p>No employees found.</p>
+        ) : (
+          <ul className="employee-list">
+            {filteredEmployees.map((name, index) => (
+              <li key={index}>{name}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default EmployeeList;
